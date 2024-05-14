@@ -61,10 +61,10 @@ const Sidebar=()=>{
            "& .pro-menu-item.active":{
             color: "#6870fa ! important"
           },
-          position: "fixed",
-          top: 0,
-          left: 0,
-          bottom: 0, // Set bottom to 0 to make the sidebar span from top to bottom
+          // position: "fixed",
+          // top: 0,
+          // left: 0,
+          // bottom: 0, // Set bottom to 0 to make the sidebar span from top to bottom
           
         }}
         >

@@ -7,10 +7,13 @@ import Home from './Home'
 
 function App(){
   return (
-   <>
-   
-   
-  </>
+  
+    <Routes>
+        <Route exact path='/login' element={<Login />}> </Route>
+          <Route path='/signup' element={<Signup />}></Route>
+          <Route path='/home' element={<Home />}></Route>
+ </Routes>
+  
   )
 }
 
